@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "null_mod",
+  "version": "${version}",
+  "name": "NULL",
+  "description": "The NULL faction from the Unstable Universe. Carry the Totem of NULL to own the army and command it with 370+ orders and schematic autobuild.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": { "main": ["com.nullmod.NullMod"] },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
